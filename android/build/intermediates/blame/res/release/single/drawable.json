@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Currently Deployed app on playstore\\MyApp\\android\\build\\intermediates\\res\\merged\\release\\drawable\\share_via_barcode.png",
+        "source": "D:\\Currently Deployed app on playstore\\MyApp\\android\\src\\main\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "D:\\Currently Deployed app on playstore\\MyApp\\android\\build\\intermediates\\res\\merged\\release\\drawable\\launcher_icon.png",
+        "source": "D:\\Currently Deployed app on playstore\\MyApp\\android\\src\\main\\res\\drawable\\launcher_icon.png"
+    }
+]

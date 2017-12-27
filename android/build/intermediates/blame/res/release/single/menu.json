@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Currently Deployed app on playstore\\MyApp\\android\\build\\intermediates\\res\\merged\\release\\menu\\capture.xml",
+        "source": "D:\\Currently Deployed app on playstore\\MyApp\\android\\src\\main\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "D:\\Currently Deployed app on playstore\\MyApp\\android\\build\\intermediates\\res\\merged\\release\\menu\\encode.xml",
+        "source": "D:\\Currently Deployed app on playstore\\MyApp\\android\\src\\main\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "D:\\Currently Deployed app on playstore\\MyApp\\android\\build\\intermediates\\res\\merged\\release\\menu\\history.xml",
+        "source": "D:\\Currently Deployed app on playstore\\MyApp\\android\\src\\main\\res\\menu\\history.xml"
+    }
+]

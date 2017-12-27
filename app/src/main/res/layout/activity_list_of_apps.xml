@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moadd.myapp.ListOfApps"
+    android:background="#293d68"
+    android:orientation="vertical"
+    android:weightSum="6">
+<TextView
+    android:id="@+id/Quran"
+    android:text="Moaddi Quran"
+    android:textColor="#fff"
+    android:textStyle="bold|italic"
+    android:gravity="center"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:textSize="30sp"
+    android:elevation="5dp"
+    android:background="@drawable/shape"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/icloud"
+        android:text="Moaddi ICloud"
+        android:textStyle="bold|italic"
+        android:background="@drawable/shape"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:elevation="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

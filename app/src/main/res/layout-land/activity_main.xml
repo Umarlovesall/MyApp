@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#293d68"
+    tools:context="com.moadd.myapp.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/logozzz"/>
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@drawable/shape2"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="10dp"
+        android:hint="User Id"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:background="@drawable/shape2"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:paddingLeft="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:imeActionId="@+id/login"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+    <Button
+        android:id="@+id/email_sign_in_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/shapes"
+        android:textColor="#fff"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:text="Login"
+        android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/other"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/shapes"
+        android:textColor="#fff"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:text="Other Accounts"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:background="#293d68">
+
+        <ImageView
+            android:id="@+id/fingerprint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/touch"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Or Use Fingerprint"
+            android:gravity="center_vertical"
+            android:layout_marginRight="225dp"
+            android:textColor="#fff"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Register"
+        android:gravity="center"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginLeft="160dp"
+        android:layout_marginRight="150dp"
+        android:textColor="#fff"
+        android:text="New User ? Register here"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:background="#293d68">
+
+        <ImageView
+            android:id="@+id/wifi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/wifion"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Click to switch On your WiFi"
+            android:layout_marginRight="130dp"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</LinearLayout>
