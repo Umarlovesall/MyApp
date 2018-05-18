@@ -28,21 +28,7 @@
             android:layout_marginTop="18dp"
             android:layout_marginBottom="18dp"
             android:src="@drawable/touch" />
-        <Button
-            android:id="@+id/apps"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            android:text="Apps"
-            android:textStyle="bold|italic"
-            android:textColor="#fff"
-            android:elevation="5dp"
-            android:background="@drawable/shape"
-            android:textSize="10sp"
-            android:layout_weight="1"/>
+
         <ImageView
             android:id="@+id/online"
             android:layout_width="0dp"
@@ -60,19 +46,14 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:src="@drawable/home"/>
-        <Button
-            android:id="@+id/logout"
+        <ImageView
+            android:id="@+id/iv"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            android:text="Logout"
-            android:textStyle="bold|italic"
-            android:textColor="#fff"
-            android:elevation="5dp"
-            android:background="@drawable/shape"
-            android:textSize="10sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_weight="1"/>
 
     </LinearLayout>

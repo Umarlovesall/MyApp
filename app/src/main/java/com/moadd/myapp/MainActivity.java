@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
     public static String un, pw;
     SharedPreferences sp;
     boolean statusOfGPS;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -122,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         username = (EditText) findViewById(R.id.userId);
         password = (EditText) findViewById(R.id.password);
         login = (Button) findViewById(R.id.email_sign_in_button);
-       // register = (TextView) findViewById(R.id.Register);
+        // register = (TextView) findViewById(R.id.Register);
         finger = (TextView) findViewById(R.id.finger);
       //  wifi = (ImageView) findViewById(R.id.wifi);
         fingerprint = (ImageView) findViewById(R.id.fingerprint);
